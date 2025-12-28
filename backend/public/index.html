@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Compiler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <h1>Online Compiler</h1>
+      <div class="controls">
+        <select id="language">
+          <option value="python">Python</option>
+          <option value="c">C</option>
+          <option value="cpp">C++</option>
+          <option value="java">Java</option>
+        </select>
+        <button onclick="runCode()">Run</button>
+      </div>
+    </div>
+
+    <textarea id="code"></textarea>
+
+    <div class="output-container">
+      <div class="output-title">Output</div>
+      <pre id="output"></pre>
+    </div>
+
+    <div class="footer">Secure Docker Sandbox</div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
